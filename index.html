@@ -1,0 +1,260 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fairuz | Personal Portfolio</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">FAIRUZ<span>.</span></a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Buka menu">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#discover" class="nav-link">Discover Me</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HOME -->
+    <section class="hero container" id="home">
+        <div class="hero-content">
+            <p class="hero-subtitle">
+                <span class="status-dot"></span>
+                WELCOME TO MY PERSONAL WEBSITE
+            </p>
+
+            <h1>HI, I'M <span>FAIRUZ.</span></h1>
+
+            <h2>Student & <span>Future Developer</span></h2>
+
+            <p class="hero-description">
+                Welcome to my little world. I'm someone who loves
+                technology, creativity, and learning new things.
+                This is where my story begins.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#about" class="btn-primary">
+                    Explore My World <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#contact" class="btn-secondary">Contact Me</a>
+            </div>
+
+            <div class="hero-socials">
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <div class="image-glow"></div>
+
+            <div class="image-frame">
+                <img src="assets/images/foto1.jpeg.jpeg"
+                     alt="Foto profil Fairuz"
+                     class="profile-image">
+            </div>
+
+            <div class="floating-card">
+                <div class="floating-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <div>
+                    <h4>Future Developer</h4>
+                    <p>Always Learning</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-heading">
+                <p class="section-label">GET TO KNOW ME</p>
+                <h2>About <span>Me</span></h2>
+                <p class="section-description">
+                    A little introduction about who I am.
+                </p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="assets/images/foto2.jpeg.jpeg" alt="Foto Fairuz">
+                </div>
+
+                <div class="about-text">
+                    <p class="about-greeting">Hello, nice to meet you!</p>
+
+                    <h3>
+                        I'm Fairuz, a student who loves
+                        <span>technology.</span>
+                    </h3>
+
+                    <p>
+                        Yo, I'm Achmad Fairuz Alfarisy. Just turned 17,
+                        and I kinda like making stuff like this for fun. 
+                        Nothing serious, just doing it for the vibes haha.
+                    </p>
+
+                    <p>
+                        I'm still a beginner in programming, 
+                        and I often rely on AI when creating things like this. 
+                        Learning new stuff can feel a little overwhelming sometimes, 
+                        but I still have the curiosity and motivation to keep learning and improving at my own pace.
+                    </p>
+
+                    <div class="about-information">
+                        <div><i class="fas fa-user"></i> Achmad Fairuz Alfarisy</div>
+                        <div><i class="fa-brands fa-tiktok"></i> ig: fairuz.alfrisy</div>
+                        <div><i class="fa-brands fa-instagram"></i> fairuz.alfrisy</div>
+                        <div><i class="fas fa-laptop-code"></i> Web Development</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DISCOVER ME -->
+    <section class="discover section" id="discover">
+        <div class="container">
+            <div class="section-heading">
+                <p class="section-label">A LITTLE BIT ABOUT MYSELF</p>
+                <h2>Discover <span>Me</span></h2>
+                <p class="section-description">
+                    Click on each card to discover my world.
+                </p>
+            </div>
+
+            <div class="cards-grid">
+                <div class="discover-card" data-card="hobbies">
+                    <div class="card-icon"><i class="fas fa-gamepad"></i></div>
+                    <span class="card-number">01</span>
+                    <h3>My Hobbies</h3>
+                    <p>Things I enjoy doing in my free time.</p>
+                    <div class="card-footer"><span>Discover More</span><i class="fas fa-arrow-right"></i></div>
+                </div>
+
+                <div class="discover-card" data-card="passion">
+                    <div class="card-icon"><i class="fas fa-code"></i></div>
+                    <span class="card-number">02</span>
+                    <h3>My Passion</h3>
+                    <p>What makes me excited to learn and grow.</p>
+                    <div class="card-footer"><span>Discover More</span><i class="fas fa-arrow-right"></i></div>
+                </div>
+
+                <div class="discover-card" data-card="favorites">
+                    <div class="card-icon">
+                    <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <h3>My Favorites</h3>
+                    <p>Things that I love.</p>
+                    <span class="card-arrow">
+                    <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </div>
+
+                <div class="discover-card" data-card="personality">
+                    <div class="card-icon"><i class="fas fa-user-astronaut"></i></div>
+                    <span class="card-number">04</span>
+                    <h3>My Personality</h3>
+                    <p>A little description of who I am.</p>
+                    <div class="card-footer"><span>Discover More</span><i class="fas fa-arrow-right"></i></div>
+                </div>
+
+                <div class="discover-card" data-card="dreams">
+                    <div class="card-icon"><i class="fas fa-rocket"></i></div>
+                    <span class="card-number">05</span>
+                    <h3>My Dreams</h3>
+                    <p>The future I want to achieve.</p>
+                    <div class="card-footer"><span>Discover More</span><i class="fas fa-arrow-right"></i></div>
+                </div>
+
+                <div class="discover-card" data-card="memories">
+                    <div class="card-icon"><i class="fas fa-camera"></i></div>
+                    <span class="card-number">06</span>
+                    <h3>My Memories</h3>
+                    <p>Moments and experiences worth remembering.</p>
+                    <div class="card-footer"><span>Discover More</span><i class="fas fa-arrow-right"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MODAL -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-box">
+            <button class="modal-close" id="modalClose" aria-label="Tutup">
+                <i class="fas fa-times"></i>
+            </button>
+
+            <div class="modal-icon" id="modalIcon"></div>
+            <p class="modal-category" id="modalCategory"></p>
+            <h2 id="modalTitle"></h2>
+            <div class="modal-content" id="modalContent"></div>
+        </div>
+    </div>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-heading">
+                <p class="section-label">LET'S CONNECT</p>
+                <h2>Get In <span>Touch</span></h2>
+                <p class="section-description">
+                    Thank you for visiting my personal website.
+                    Feel free to connect with me!
+                </p>
+            </div>
+
+            <div class="contact-box">
+                <div class="contact-icon"><i class="fas fa-paper-plane"></i></div>
+                <h3>Let's Connect Together</h3>
+                <p>
+                    I'm always interested in meeting new people,
+                    sharing ideas, and learning new things.
+                </p>
+                <a href="tel:+6285143417719" class="btn-primary">
+                    Contact to me <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <a href="#home" class="logo">FAIRUZ<span>.</span></a>
+            <p>Designed & Built by Fairuz.</p>
+            <p class="copyright">
+                &copy; <span id="currentYear"></span> Fairuz. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
